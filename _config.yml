@@ -1,3 +1,4 @@
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
+remote_theme: pages-themes/time-machine@v0.2.0
 title: Glitjch (TJ Phan's) Portfolio
 description: So glad you dropped by. Bookmark me for project updates. Better yet, let's chat!
