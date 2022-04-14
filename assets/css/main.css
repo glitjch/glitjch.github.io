@@ -175,7 +175,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -2659,6 +2659,11 @@ input, select, textarea {
 
 /* Contact */
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 	ul.contact {
 		list-style: none;
 		padding: 0;
@@ -2666,9 +2671,9 @@ input, select, textarea {
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
-			padding: 0 0 0 3.25em;
-			position: relative;
+			/* margin: 2.5em 0 0 0; */
+			/* padding: 0 0 0 3.25em; */
+			/* position: relative; */
 		}
 
 			ul.contact li:before {
@@ -2688,11 +2693,11 @@ input, select, textarea {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 2.8em;
 				height: 2.5em;
-				left: 0;
+				/* left: 0; */
 				line-height: 2.35em;
-				position: absolute;
+				/* position: absolute; */
 				text-align: center;
 				top: 0;
 				width: 2.5em;
@@ -2705,7 +2710,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.contact li {
-				margin: 1.5em 0 0 0;
+				/* margin: 1.5em 0 0 0; */
 			}
 
 		}
